@@ -3,6 +3,11 @@ import os
 name = input("Enter the name of the project:")
 place = input("Enter path:")
 
+if not name:
+    name = "kivy_initiator"
+if not place:
+    place = os.getcwd()
+
 os.makedirs(f"{place}/{name}")
 
 try:

@@ -6,8 +6,9 @@ git clone https://github.com/AkuSarma/kivy_initiator.git
 cd kivy_initiator
 python main.py
 ```
-**How it works**
-* At first it will ask you the name of the project and the directory in which you want to create the project 
+**What it does**
+* At first it will ask you the name of the project and the directory in which you want to create the project
+* If left blank set the name to kivy_initiator and take the current working directory as the project path.
 * Then it will create a folder there with the name of your project 
 * Which contains two files namely main.py and name.kv(name = name of your project).
 * Both the files will contain the initial required imports that are common in all the kivy projects.
