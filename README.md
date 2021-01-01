@@ -4,7 +4,7 @@ It does the initial work of creating a new kivy project.
 ```bash
 git clone https://github.com/AkuSarma/kivy_initiator.git
 cd kivy_initiator
-python main.py
+python main.py --n name --p path
 ```
 **What it does**
 * At first it will ask you the name of the project and the directory in which you want to create the project
